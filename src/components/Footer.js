@@ -14,10 +14,10 @@ function Footer() {
             boxSize="50px"
           />
           <Text fontSize="lg" fontWeight="bold">
-            Physics Wallah
+            Aurla for Austim
           </Text>
           <Text fontSize="sm">
-            We understand that every student has different needs and capabilities, which is why we create such a wonderful and unique curriculum that is the best fit for every student.
+          Autism spectrum disorder (ASD) is a neurological and developmental condition that affects a person's communication, behavior, interaction with others, and learning. Some key facts about ASD include: 
           </Text>
           <HStack spacing={4}>
             <Image src="https://via.placeholder.com/150x50" alt="Google Play" />
@@ -44,11 +44,11 @@ function Footer() {
         {/* Our Channels Links */}
         <Stack spacing={2} align="flex-start">
           <Text fontSize="lg" fontWeight="bold">Our Channels</Text>
-          <Link href="#">Physics Wallah - Foundation</Link>
-          <Link href="#">Competition Wallah</Link>
-          <Link href="#">NCERT - Physics Wallah</Link>
-          <Link href="#">Commerce Wallah by PW</Link>
-          <Link href="#">PW Pathshala</Link>
+          <Link href="#"> Austim - Foundation</Link>
+          <Link href="#">Autim - New</Link>
+          <Link href="#">Austim - Old</Link>
+          <Link href="#">Austim - Neuralink</Link>
+          <Link href="#">Austim - Ausota</Link>
           <Link href="#">All Channels</Link>
         </Stack>
       </SimpleGrid>
