@@ -18,6 +18,7 @@ function HeroBanner() {
         const {data} = await response.json();
         setImages(data);
       } catch (error) {
+        
         setError(error.message);
       } finally {
         setLoading(false);
@@ -50,25 +51,25 @@ function HeroBanner() {
       {/* Images Grid */}
       <SimpleGrid columns={[2, 2, 4]} spacing="4" my="6">
         <Image
-          src={images[0].image} // Replace with actual image URL
+          src='https://via.placeholder.com/200X400'// Replace with actual image URL
           alt="Sample Paper 1"
           borderRadius="md"
           boxShadow="lg"
         />
         <Image
-          src={images[1].image} // Replace with actual image URL
+          src='https://via.placeholder.com/200X400 '// Replace with actual image URL
           alt="Sample Paper 2"
           borderRadius="md"
           boxShadow="lg"
         />
         <Image
-          src={images[2].image} // Replace with actual image URL
+          src='https://via.placeholder.com/200X400' // Replace with actual image URL
           alt="Sample Paper 3"
           borderRadius="md"
           boxShadow="lg"
         />
         <Image
-          src={images[3].image} // Replace with actual image URL
+          src='https://via.placeholder.com/200X400' // Replace with actual image URL
           alt="Sample Paper 4"
           borderRadius="md"
           boxShadow="lg"
